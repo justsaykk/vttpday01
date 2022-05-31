@@ -13,6 +13,8 @@ echo $CLASSPATH
 ```
 export CLASSPATH=“/opt/java/classes:./classes:.”
 ```
+- Lets breakdow the classpath statement:
+    - The program will look for the class file from left to right of the export statement. 
 
 2. Compile the code using the following command in the root folder:
 
